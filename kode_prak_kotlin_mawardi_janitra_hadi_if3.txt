@@ -1,0 +1,515 @@
+Course 1
+
+Kode 1
+
+fun main() {
+    println("Hello, world!")
+}
+
+Kode 2
+
+fun main() {
+    println("Hello, Android!")
+}
+
+Kode 3
+
+fun main() {
+    println("Hello, Android!")
+    println("Hello, Android!")
+}
+
+Kode 4
+
+fun main() {
+    println("Hello, Mawardi Janitra Hadi!")
+    println("Hello, Mawardi Janitra Hadi!")
+}
+
+Kode 5
+
+fun main() {
+    println("Today is sunny!")
+}
+
+Kode 6
+
+fun main() {
+    println("1")
+    println("2")
+    println("3")
+}
+
+Kode 7
+
+fun main() {
+    println("I'm")
+    println("Learning")
+    println("Kotlin")
+}
+
+Kode 8
+
+fun main() {
+    println("Tuesday")
+    println("Thursday")
+    println("Wednesday")
+    println("Friday")
+    println("Monday")
+}
+
+Kode 9
+
+fun main() {
+    println("Monday")
+    println("Tuesday")
+    println("Wednesday")
+    println("Thursday")
+    println("Friday")
+}
+
+Kode 10
+
+fun main() {
+    println("Tomorrow is rainy")
+}
+
+Kode 11
+
+fun main() {
+    println("There is a chance of snow")
+}
+
+Kode 12
+
+fun main() {
+    println("Cloudy") 
+    println("Partly Cloudy") 
+    println("Windy")
+}
+
+Kode 13
+
+fun main() {
+    println("How's the weather today?")
+}
+
+Course 2
+
+Kode 1
+
+fun main() {
+    val count: Int = 2
+    println(count)
+}
+
+Kode 2
+
+fun main() {
+    val count: Int = 2
+    println(2)
+}
+
+Kode 3
+
+fun main() {
+    val count: Int = 2
+    println("You have count unread messages.")
+}
+
+Kode 4
+
+fun main() {
+    val count: Int = 2
+    println("You have $count unread messages.")
+}
+
+Kode 5
+
+fun main() {
+    val count: Int = 10
+    println("You have $count unread messages.")
+}
+
+Kode 6
+
+fun main() {
+    println("You have 10 unread messages.")
+}
+
+Kode 7
+
+fun main() {
+    val count: Int = 10
+    println("You have $count unread messages.")
+}
+
+Kode 8
+
+fun main() {
+    val unreadCount = 5
+    val readCount = 100
+    println("You have ${unreadCount + readCount} total messages in your inbox.")
+}
+
+Kode 9
+
+fun main() {
+    val numberOfPhotos = 100
+    val photosDeleted = 10
+    println("$numberOfPhotos photos")
+    println("$photosDeleted photos deleted")
+    println("${numberOfPhotos - photosDeleted} photos left")
+}
+
+Kode 10
+
+fun main() {
+    var cartTotal = 0
+    cartTotal = 20
+    println("Total: $cartTotal")
+}
+
+Kode 11
+
+fun main() {
+    var cartTotal = 0
+    println("Total: $cartTotal")
+
+    cartTotal = 20
+    println("Total: $cartTotal")
+}
+
+Kode 12
+
+fun main() {
+    val count: Int = 10
+    println("You have $count unread messages.")
+}
+
+Kode 13
+
+fun main() {
+    var count: Int = 10
+    println("You have $count unread messages.")
+}
+
+Kode 14
+
+fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count = count + 1
+}
+
+Kode 15
+
+fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count = count + 1
+    println("You have $count unread messages.")
+}
+
+Kode 16
+
+fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count++
+    println("You have $count unread messages.")
+}
+
+Kode 17 
+
+fun main() {
+    var count = 10
+    println("You have $count unread messages.")
+    count--
+    println("You have $count unread messages.")
+}
+
+Kode 18
+
+fun main() {
+    val trip1: Double = 3.20
+    val trip2: Double = 4.10
+    val trip3: Double = 1.72
+    val totalTripLength: Double = 0.0
+    println("$totalTripLength miles left to destination")
+}
+
+Kode 19
+
+fun main() {
+    val trip1: Double = 3.20
+    val trip2: Double = 4.10
+    val trip3: Double = 1.72
+    val totalTripLength: Double = trip1 + trip2 + trip3
+    println("$totalTripLength miles left to destination")
+}
+
+Kode 20
+
+fun main() {
+    val trip1 = 3.20
+    val trip2 = 4.10
+    val trip3 = 1.72
+    val totalTripLength = trip1 + trip2 + trip3
+    println("$totalTripLength miles left to destination")
+}
+
+Kode 21
+
+fun main() {
+    val nextMeeting = "Next meeting is:"
+    val date = "January 1"
+    val reminder = nextMeeting + date
+    println(reminder)
+}
+
+Kode 22
+
+fun main() {
+    val nextMeeting = "Next meeting is: "
+    val date = "January 1"
+    val reminder = nextMeeting + date
+    println(reminder)
+}
+
+Kode 23
+
+fun main() {
+    val nextMeeting = "Next meeting is: "
+    val date = "January 1"
+    val reminder = nextMeeting + date + " at work"
+    println(reminder)
+}
+
+Kode 24
+
+fun main() {
+    println("Say \"hello\"")
+}
+
+Kode 25
+
+fun main() {
+    val notificationsEnabled: Boolean = true
+    println(notificationsEnabled)
+}
+
+Kode 26
+
+fun main() {
+    val notificationsEnabled: Boolean = false
+    println(notificationsEnabled)
+}
+
+Kode 27
+
+fun main() {
+    val notificationsEnabled: Boolean = false
+    println("Are notifications enabled? " + notificationsEnabled)
+}
+
+Kode 28
+
+/**
+ * This program displays the number of messages
+ * in the user's inbox.
+ */
+fun main() {
+    // Create a variable for the number of unread messages.
+    var count = 10
+    println("You have $count unread messages.")
+
+    // Decrease the number of messages by 1.
+    count--
+    println("You have $count unread messages.")
+}
+
+
+Course 3
+
+Kode 1
+
+fun main() {
+    println("Happy Birthday, Rover!")
+    println("You are now 5 years old!")
+}
+
+Kode 2
+
+fun main() {
+    println("Happy Birthday, Rover!")
+    println("You are now 5 years old!")
+}
+
+fun birthdayGreeting() {
+
+}
+
+Kode 3
+
+fun main() {
+
+}
+
+fun birthdayGreeting() {
+    println("Happy Birthday, Rover!")
+    println("You are now 5 years old!")
+}
+
+Kode 4
+
+fun birthdayGreeting(): String {
+    println("Happy Birthday, Rover!")
+    println("You are now 5 years old!")
+}
+
+Kode 5
+
+fun main() {
+    birthdayGreeting()
+}
+
+fun birthdayGreeting(): String {
+    val nameGreeting = "Happy Birthday, Rover!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+
+Kode 6
+
+fun main() {
+    val greeting = birthdayGreeting()
+    println(greeting)
+}
+
+fun birthdayGreeting(): String {
+    val nameGreeting = "Happy Birthday, Rover!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+
+Kode 7
+
+fun main() {
+    println(birthdayGreeting())
+}
+
+fun birthdayGreeting(): String {
+    val nameGreeting = "Happy Birthday, Rover!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+
+Kode 8
+
+fun main() {
+    println(birthdayGreeting())
+}
+
+fun birthdayGreeting(name: String): String {
+    val nameGreeting = "Happy Birthday, Rover!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+
+Kode 9
+
+fun main() {
+    println(birthdayGreeting("Rover"))
+}
+
+fun birthdayGreeting(name: String): String {
+    val nameGreeting = "Happy Birthday, $name!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+
+Kode 10
+
+fun main() {
+    println(birthdayGreeting("Rover"))
+    println(birthdayGreeting("Rex"))
+}
+
+fun birthdayGreeting(name: String): String {
+    val nameGreeting = "Happy Birthday, $name!"
+    val ageGreeting = "You are now 5 years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+
+Kode 11
+
+fun main() {
+    println(birthdayGreeting("Rover", 5))
+    println(birthdayGreeting("Rex", 2))
+}
+
+fun birthdayGreeting(name: String, age: Int): String {
+    val nameGreeting = "Happy Birthday, $name!"
+    val ageGreeting = "You are now $age years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+
+Kode 12
+
+fun main() {
+    println(birthdayGreeting("Rover", 5))
+    println(birthdayGreeting(name = "Rex", age = 2))
+}
+
+fun birthdayGreeting(name: String, age: Int): String {
+    val nameGreeting = "Happy Birthday, $name!"
+    val ageGreeting = "You are now $age years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+
+Kode 13
+
+fun main() {
+    println(birthdayGreeting("Rover", 5))
+    println(birthdayGreeting(age = 2, name = "Rex"))
+}
+
+fun birthdayGreeting(name: String, age: Int): String {
+    val nameGreeting = "Happy Birthday, $name!"
+    val ageGreeting = "You are now $age years old!"
+    return "$nameGreeting\n$ageGreeting"
+}
+
+Kode 14
+
+fun main() {
+    println(birthdayGreeting("Rover", 5))
+    println(birthdayGreeting(age = 2, name = "Rex"))
+}
+
+fun birthdayGreeting(name: String = "Rover", age: Int): String {
+    return "Happy Birthday, $name! You are now $age years old!"
+}
+
+Kode 15
+
+fun main() {
+    println(birthdayGreeting(age = 5))
+    println(birthdayGreeting("Rex", 2))
+}
+
+fun birthdayGreeting(name: String = "Rover", age: Int): String {
+    return "Happy Birthday, $name! You are now $age years old!"
+}
+
+Kode 16
+
+fun main() {
+    println(birthdayGreeting(age = 5))
+    println(birthdayGreeting(age = 2))
+}
+
+fun birthdayGreeting(name: String = "Rover", age: Int): String {
+    return "Happy Birthday, $name! You are now $age years old!"
+}
